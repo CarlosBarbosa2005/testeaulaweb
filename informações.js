@@ -5,9 +5,9 @@
     topicos.push(subtitulo.textContent);
   });
   lista = document.querySelector('ol');
-  topicos.forEach(topico=>{
+  topicos.forEach(topico=> {
       const item = document.createElement('li')
-      item.textcontent = topico;
+      item.textContent = topico;
       lista.append(item);
   });
   </script>
