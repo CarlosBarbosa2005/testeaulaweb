@@ -1,4 +1,4 @@
-<script src='sumario.html'>
+<script>
   const topicos = nem Array();
   lista = document.querySelector('ol');
   topicos.forEach(topico=>{
