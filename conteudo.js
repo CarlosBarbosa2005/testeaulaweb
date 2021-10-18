@@ -13,4 +13,14 @@ const subtitulos = document.querySelectorAll ('h2');
   botaoreturn.addEventListener("click", function() {
     window.scrollTo(0, 0);
   });
+
+$('.voltar a[href^="#"]').on('click', function(e) {
+	e.preventDefault();
+	var id = $(this).attr('href'),
+			targetOffset = $(id).offset().top;
+			
+	$('html, body').animate({ 
+		scrollTop: targetOffset - 100
+	}, 500);
+});
  
