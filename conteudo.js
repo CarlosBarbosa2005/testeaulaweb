@@ -9,11 +9,7 @@ const subtitulos = document.querySelectorAll ('h2');
       item.textContent = topico;
       lista.append(item);
   });
-  var botaoreturn = document.querySelectorAll("#voltar");
-  botaoreturn.addEventListener("click", function() {
-    window.scrollTo(0, 0);
-  });
-
+  
 $('.voltar a[href^="#"]').on('click', function(e) {
 	e.preventDefault();
 	var id = $(this).attr('href'),
