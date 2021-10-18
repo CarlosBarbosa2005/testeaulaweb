@@ -34,5 +34,12 @@ item.append(link);
 */
 
   });
+document.querySelector("body > center > ol > li:nth-child(1)").innerHTML = "<a href='#flamengo'>flamengo</a>";
+document.querySelector("body > center > ol > li:nth-child(2)").innerHTML = "<a href='#corinthians'>corinthians</a>";
+document.querySelector("body > center > ol > li:nth-child(3)").innerHTML = "<a href='#sao-paulo'>sao-paulo</a>";
+document.querySelector("body > center > ol > li:nth-child(4)").innerHTML = "<a href='#palmeiras'>palmeiras</a>";
+document.querySelector("body > center > ol > li:nth-child(5)").innerHTML = "<a href='#vasco'>vasco</a>";
+document.querySelector("body > center > ol > li:nth-child(6)").innerHTML = "<a href='#cruzeiro'>cruzeiro</a>";
+  });
 
  
