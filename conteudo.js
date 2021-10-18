@@ -1,4 +1,3 @@
-<script>
 const subtitulos = document.querySelectorAll ('h2');
 const topicos = nem Array();
 subtitulos.forEach(subtitulo => {
@@ -10,4 +9,3 @@ subtitulos.forEach(subtitulo => {
       item.textContent = topico;
       lista.append(item);
   });
- </script>
