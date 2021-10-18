@@ -15,16 +15,13 @@ subtitulos.forEach(element => {
   topicos.forEach(topico=> {
       const item = document.createElement('li')
       item.textContent = topico;
-      lista.append(item);
-	  
-  });
-
+      lista.append(item)
 const link = document.createElement('a');
 link.setAttribute('href',`#${topico}`);
 link.textContent = topico;
 item.append(link);
 
-});
+  });
   
 $('.voltar a[href^="#"]').on('click', function(e) {
 	e.preventDefault();
