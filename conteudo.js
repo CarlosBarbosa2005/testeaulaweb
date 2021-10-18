@@ -33,7 +33,6 @@ link.textContent = topico;
 item.append(link);
 */
 
-  });
 document.querySelector("body > center > ol > li:nth-child(1)").innerHTML = "<a href='#flamengo'>flamengo</a>";
 document.querySelector("body > center > ol > li:nth-child(2)").innerHTML = "<a href='#corinthians'>corinthians</a>";
 document.querySelector("body > center > ol > li:nth-child(3)").innerHTML = "<a href='#sao-paulo'>sao-paulo</a>";
