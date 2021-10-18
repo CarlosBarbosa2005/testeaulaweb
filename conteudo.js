@@ -9,4 +9,8 @@ const subtitulos = document.querySelectorAll ('h2');
       item.textContent = topico;
       lista.append(item);
   });
+  var botaoreturn = document.querySelector("#voltar");
+  botaoreturn.addEventListener("click", function() {
+    window.scrollTo(0, 0);
+  });
  
