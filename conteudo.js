@@ -1,5 +1,5 @@
 const subtitulos = document.querySelectorAll ('h2');
- const topicos = nem Array();
+ const topicos = new Array();
   subtitulos.forEach(subtitulo => {
    topicos.push(subtitulo.textContent);
   });
